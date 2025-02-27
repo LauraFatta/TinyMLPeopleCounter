@@ -2,8 +2,8 @@ import paho.mqtt.client as mqtt
 import requests
 
 # Telegram Bot Credentials
-TELEGRAM_BOT_TOKEN = "7239719458:AAEda7--ChsV1-7KGcSK5vXQpNZwuKOEGNc" 
-TELEGRAM_CHAT_ID = "1262900283" 
+TELEGRAM_BOT_TOKEN = "************************************************************" 
+TELEGRAM_CHAT_ID = "**************************" 
 
 # MQTT Broker Details
 MQTT_BROKER = "test.mosquitto.org"
