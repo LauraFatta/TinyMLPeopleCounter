@@ -27,8 +27,6 @@ Once flashed, connect your device.
 
 Load the main Python script from this repository: PeopleCounter.py.
 
-### 3. Configure Wi-Fi Credentials
-
 Before running the code, update the Wi-Fi credentials:
 
 Open the MicroPython script in OpenMV IDE.
@@ -40,7 +38,7 @@ WIFI_PASS = 'YOUR_WIFI_PASSWORD'  # Replace with your WiFi password
 
 Replace 'YOUR_WIFI_SSID' and 'YOUR_WIFI_PASSWORD' with your own network details.
 
-### 4. Running the Telegram Bot
+### 3. Running the Telegram Bot
 
 **Step 1: Get a Telegram Token**
 
@@ -64,7 +62,7 @@ Copy your Chat ID and update the script:
 
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"  # Replace with your Chat ID
 
-### 5. Running the System
+### 4. Running the System
 
 Ensure the device is connected to Wi-Fi.
 
