@@ -8,8 +8,8 @@ import network
 from mqtt import MQTTClient
 
 # WiFi Credentials
-WIFI_SSID = 'Welcome home_4G'  # Replace with your WiFi SSID
-WIFI_PASS = '25476901'  # Replace with your WiFi password
+WIFI_SSID = 'YOUR_WIFI_SSID'  # Replace with your WiFi name
+WIFI_PASS = 'YOUR_WIFI_PASSWORD'  # Replace with your WiFi password
 
 # MQTT Broker Details for mosquito
 MQTT_BROKER = 'test.mosquitto.org'  # mosquito public broker
