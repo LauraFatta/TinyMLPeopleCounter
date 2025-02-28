@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project is designed to accurately **count the number of people in metro stations** using **OpenMV and TinyML** on the **Arduino Nicla Vision** device. The system detects and tracks people, preventing multiple detections of the same person to ensure an accurate count. The results are transmitted via **MQTT**, and an optional **Telegram bot** notifies users in real-time.
+This project is designed to accurately **count the number of people in metro stations** using **OpenMV and TinyML** on the **Arduino Nicla Vision** device. The system detects and tracks people, preventing multiple detections of the same person to ensure an accurate count. The results are transmitted via **MQTT**, and a **Telegram bot** that notifies users in real-time.
 
 ## Installation & Setup
 
 ### 1️⃣ Download & Flash the Firmware
 
-1. 📥 **Download** the firmware **ZIP file** from this repository: [Firmware.zip](https://github.com/YOUR_GITHUB_REPO_LINK_HERE)
+1. 📥 **Download** the firmware **ZIP file** from this repository: [Firmware.zip]([https://github.com/YOUR_GITHUB_REPO_LINK_HERE](https://github.com/LauraFatta/TinyMLPeopleCounter/blob/main/crowd-counting-open-mv-fw-v10.zip))
 2. 📂 **Extract** the ZIP file, which contains the required **.bin** firmware files.
 3. 🔥 **Flash** the **Nicla Vision** (or any compatible TinyML device):
    - 🔄 **Restart the device** into bootloader mode (refer to your device's documentation).
@@ -18,9 +18,8 @@ This project is designed to accurately **count the number of people in metro sta
 
 
 ### 2️⃣ Set Up OpenMV & Load the Code
-
-2. 🔌 **Connect** your **Nicla Vision**.
-3. 📜 **Load** the **main Python script** from this repository: .
+1. 🔌 **Connect** your **Nicla Vision**.
+2. 📜 **Load** the **main Python script** from this repository: .
 
 ### 3️⃣ Configure Wi-Fi Credentials
 
@@ -45,9 +44,9 @@ WIFI_PASS = 'YOUR_WIFI_PASSWORD'  # Replace with your WiFi password
 1. 📩 **Send a message** to your bot on Telegram.
 2. 🌐 **Open a browser** and visit:
    ```
-   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
+   https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
    ```
-   *(Replace **`<YOUR_BOT_TOKEN>`** with the actual bot token.)*
+   *(Replace **`YOUR_BOT_TOKEN`** with the actual bot token.)*
 3. 🔍 **Look for** `"chat":{"id":YOUR_CHAT_ID}` in the response.
 4. 📋 **Copy** your **Chat ID** and update the script:
    ```python
