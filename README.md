@@ -1,5 +1,5 @@
 # People Counting System for Metro Stations
-Overview
+##Overview
 
 This project is designed to accurately count the number of people in metro stations using OpenMV and TinyML on the Arduino Nicla Vision device. The system detects and tracks people, preventing multiple detections of the same person to ensure an accurate count. The results are transmitted via MQTT, and an optional Telegram bot notifies users in real-time.
 
