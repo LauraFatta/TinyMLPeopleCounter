@@ -8,7 +8,7 @@ This project is designed to accurately **count the number of people in metro sta
 
 ### 1️⃣ Download & Flash the Firmware
 
-1. 📥 **Download** the firmware **ZIP file** from this repository: [Firmware.zip]([TinyMLPeopleCounter/crowd-counting-open-mv-fw-v10.zip])
+1. 📥 **Download** the firmware **ZIP file** from this repository: [Firmware.zip]([https://github.com/LauraFatta/TinyMLPeopleCounter/blob/main/crowd-counting-open-mv-fw-v10.zip])
 2. 📂 **Extract** the ZIP file, which contains the required **.bin** firmware files.
 3. 🔥 **Flash** the **Nicla Vision** (or any compatible TinyML device):
    - 🔄 **Restart the device** into bootloader mode (refer to your device's documentation).
