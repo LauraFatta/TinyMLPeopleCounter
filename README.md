@@ -7,7 +7,7 @@ Installation & Setup
 
 1. Download & Flash the Firmware
 
-Download the firmware ZIP file from this repository: Firmware.zip
+Download the firmware ZIP file from this repository: crowd-counting-open-mv-fw-v10.zip
 
 Extract the ZIP file, which contains the required .bin firmware files.
 
