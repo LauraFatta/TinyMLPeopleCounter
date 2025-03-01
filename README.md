@@ -41,12 +41,12 @@ WIFI_PASS = 'YOUR_WIFI_PASSWORD'  # Replace with your WiFi password
 
 #### 🔹 Step 2: Find Your Telegram Chat ID
 
-1. 📩 **Send a message** to your bot on Telegram.
+1. 📩 **Send a message** to the `@PeepCountBot` bot on Telegram.
 2. 🌐 **Open a browser** and visit:
    ```
    https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
    ```
-   *(Replace **`YOUR_BOT_TOKEN`** with the actual bot token.)*
+   *(Replace **`YOUR_BOT_TOKEN`** with the actual bot token, again you can obtain this by contacting me via email.)*
 3. 🔍 **Look for** `"chat":{"id":YOUR_CHAT_ID}` in the response.
 4. 📋 **Copy** your **Chat ID** and update the script:
    ```python
